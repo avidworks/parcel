@@ -1,0 +1,17 @@
+body {
+	background: blue;
+	font-family: sans-serif;
+}
+
+.card {
+	border-radius: 1em;
+	width: 400px;
+	height: 200px;
+	padding: 2rem;
+	background: white;
+	cursor: pointer;
+
+	&__header {
+		color: orangered;
+	}
+}
